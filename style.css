@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* ===== GLOBAL STYLES ===== */
+* {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.light-bg {
+    background-color: #FFF8F3;
+}
+
+.primary-text-color {
+    color: #FD6E0A;
+}
+
+.dark-1 {
+    color: #181818;
+}
+
+.dark-2 {
+    color: #474747;
+}
+
+.dark-3 {
+    color: #757575;
+}
+
+.primary-btn {
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 12px 35px;
+    border-radius: 5px;
+    background: rgb(253, 110, 10);
+}
+
+.secondary-btn {
+    border: 1px solid rgb(253, 110, 10);
+    color: rgb(253, 110, 10);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 12px 35px;
+    border-radius: 5px;
+    background: white;
+}
+
+
+/* ===== HEADER ===== */
+.header {
+    background-image: url(images/developer.png), url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+
+/* ===== Navigation Bar ===== */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 120px;
+    padding-top: 59px;
+}
+
+nav #logo {
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 61px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav>ul li {
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+nav>ul li a {
+    text-decoration: none;
+}
+
+
+/* ===== Banner ===== */
+#banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content {
+    width: 585px;
+    margin-left: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-content h4 {
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 61px;
+    margin-bottom: 5px;
+}
+
+.banner-content h1 {
+    font-size: 85px;
+    font-weight: 700;
+    line-height: 116px;
+    margin-bottom: 20px;
+}
+
+.banner-content p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.banner-btns {
+    display: flex;
+    gap: 30px;
+}
+
+
+/* ===== ARTICLE ===== */
+article {
+    width: 80%;
+    margin: auto;
+}
+
+article section {
+    margin: 130px auto 0 auto;
+}
+
+
+/* ===== About Me ===== */
+.aboutme-container {
+    border-radius: 10px;
+    padding: 130px;
+}
+
+.aboutme-content {
+    width: 827px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+}
+
+.aboutme-content .aboutme-title {
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.aboutme-content .aboutme-desc {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.aboutme-content .contact-info {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+/* ===== What I Do ===== */
+.my-work {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 80px;
+}
+
+.my-work h3 {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 30px;
+}
+
+.my-work p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.my-work .work-desc {
+    width: 827px;
+}
+
+.cards-container {
+    display: flex;
+    gap: 20px;
+    text-align: left;
+
+}
+
+.cards-container .card {
+    width: 250px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+}
+
+.card img {
+    width: 44px;
+    height: 44px;
+}
+
+.card h6 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.card p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+/* ===== Resume Summary ===== */
+.summary h3 {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.edu-exp-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.edu-exp-container h5 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 41px;
+    margin-bottom: 30px;
+}
+
+.education,
+.experience {
+    width: 560px;
+}
+
+.edu-exp-content {
+    width: 480px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.edu-exp-content .title {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 34px;
+    margin-bottom: 10px;
+}
+
+.edu-exp-content .subtitle {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+
+.edu-exp-content .desc {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.bt-bd-grey {
+    border-top: 1px solid rgb(209, 209, 209);
+    border-bottom: 1px solid rgb(209, 209, 209);
+}
+
+.summary .primary-btn {
+    display: block;
+    margin: 25px auto 100px auto;
+}
+
+
+/* ===== FOOTER ===== */
+.width80 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.connect,
+form {
+    width: 480px;
+}
+
+.connect .title {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    margin-bottom: 20px;
+}
+
+.connect .desc {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    margin-bottom: 30px;
+}
+
+.connect .icon-tray {
+    display: flex;
+    gap: 25px;
+}
+
+form .title {
+font-size: 35px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+margin-bottom: 20px;
+}
+
+input, textarea {
+    display: block;
+    border: none;
+    width: 80%;
+    border-radius: 5px;
+    margin-bottom: 24px;
+    padding: 15px 30px;
+background: rgb(255, 255, 255);
+}
