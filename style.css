@@ -7,6 +7,11 @@
     padding: 0;
 }
 
+.page-width {
+    width: 80%;
+    margin: 0 auto;
+}
+
 .light-bg {
     background-color: #FFF8F3;
 }
@@ -25,6 +30,20 @@
 
 .dark-3 {
     color: #757575;
+}
+
+.section-title {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 34px;
+    margin-bottom: 50px;
+}
+
+.desc-para {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
 }
 
 .primary-btn {
@@ -61,8 +80,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 120px;
-    padding-top: 59px;
+    padding-top: 50px;
 }
 
 nav #logo {
@@ -117,10 +135,7 @@ nav>ul li a {
 }
 
 .banner-content p {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-    margin-bottom: 30px;
+    font-size: 20px;
 }
 
 .banner-btns {
@@ -130,13 +145,8 @@ nav>ul li a {
 
 
 /* ===== ARTICLE ===== */
-article {
-    width: 80%;
-    margin: auto;
-}
-
 article section {
-    margin: 130px auto 0 auto;
+    margin: 130px auto 0;
 }
 
 
@@ -156,18 +166,8 @@ article section {
     background: rgb(255, 255, 255);
 }
 
-.aboutme-content .aboutme-title {
-    font-size: 35px;
-    font-weight: 700;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.aboutme-content .aboutme-desc {
+.aboutme-content .desc-para {
     font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-    margin-bottom: 30px;
 }
 
 .aboutme-content .contact-info {
@@ -187,21 +187,12 @@ article section {
     gap: 80px;
 }
 
-.my-work h3 {
-    font-size: 35px;
-    font-weight: 700;
-    line-height: 48px;
-    margin-bottom: 30px;
+.my-work .work-desc {
+    width: 825px;
 }
 
 .my-work p {
     font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-}
-
-.my-work .work-desc {
-    width: 827px;
 }
 
 .cards-container {
@@ -233,22 +224,12 @@ article section {
     line-height: 27px;
 }
 
-.card p {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 30px;
+.card .desc-para {
+    margin-bottom: 0;
 }
 
 
 /* ===== Resume Summary ===== */
-.summary h3 {
-    font-size: 35px;
-    font-weight: 700;
-    line-height: 48px;
-    margin-bottom: 50px;
-    text-align: center;
-}
-
 .edu-exp-container {
     display: flex;
     justify-content: space-between;
@@ -287,11 +268,9 @@ article section {
     margin-bottom: 20px;
 }
 
-.edu-exp-content .desc {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 28px;
-    margin-bottom: 30px;
+.edu-exp-content .desc-para {
+    line-height: 26px;
+    margin-bottom: 0;
 }
 
 .bt-bd-grey {
@@ -306,9 +285,7 @@ article section {
 
 
 /* ===== FOOTER ===== */
-.width80 {
-    width: 80%;
-    margin: auto;
+footer {
     display: flex;
     justify-content: space-between;
 }
@@ -318,7 +295,7 @@ form {
     width: 480px;
 }
 
-.connect .title {
+.connect .section-title {
     font-size: 35px;
     font-weight: 700;
     line-height: 48px;
@@ -326,12 +303,8 @@ form {
     margin-bottom: 20px;
 }
 
-.connect .desc {
-    font-size: 16px;
-    font-weight: 400;
+.connect .desc-para {
     line-height: 28px;
-    letter-spacing: 0%;
-    margin-bottom: 30px;
 }
 
 .connect .icon-tray {
@@ -340,19 +313,20 @@ form {
 }
 
 form .title {
-font-size: 35px;
-font-weight: 700;
-line-height: 48px;
-letter-spacing: 0%;
-margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    margin-bottom: 20px;
 }
 
-input, textarea {
+input,
+textarea {
     display: block;
     border: none;
     width: 80%;
     border-radius: 5px;
     margin-bottom: 24px;
     padding: 15px 30px;
-background: rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
 }
